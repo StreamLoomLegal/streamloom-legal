@@ -5,9 +5,9 @@ title: Streamloom Privacy Policy
 
 # Privacy Policy for Streamloom
 
-**Last Updated: 28 September 2026**
+**Last Updated: 2 October 2026**
 
-SoftArchium ("we", "us", or "our") builds and maintains **Streamloom**, a live television and media streaming player application for Android devices (phones, tablets, and Android TV / Google TV).
+SoftArchium ("we", "us", or "our") builds and maintains **Streamloom**, a live television and media streaming player application for Android devices (phones, tablets, and Android TV / Google TV) and Amazon Fire TV.
 
 This Privacy Policy explains how Streamloom handles user information. Our core architectural principle is **privacy by design**: we collect no personal data, require no accounts, and never track you individually. We do send anonymous, aggregate usage counts — see Section 3C for what these are and why — but nothing about them can be tied back to your device or to you. In most regions, a small baseline of that (that the app was opened, and when a stream fails to play) is always sent, so we can keep the service reliable; a separate Settings toggle controls everything beyond that baseline. In the European Economic Area, the United Kingdom, Switzerland and a small number of nearby countries, that baseline is controlled by the same Settings toggle instead, like everything else; in mainland China, we send no usage statistics of any kind. See Section 3C for exactly which regions and why.
 
