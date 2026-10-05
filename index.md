@@ -5,7 +5,7 @@ title: Streamloom Privacy Policy
 
 # Privacy Policy for Streamloom
 
-**Last Updated: 28 September 2026**
+**Last Updated: 5 October 2026**
 
 SoftArchium ("we", "us", or "our") builds and maintains **Streamloom**, a live television and media streaming player application for Android devices (phones, tablets, and Android TV / Google TV).
 
@@ -69,10 +69,24 @@ The auditable version of this list is kept with the app's source code and is ava
 
 ---
 
-## 4. Third-Party Services and External Links
+## 4. Third-Party Content, Disclaimer and Liability
 
-Streamloom plays streams from third-party media sources listed in a public, community-maintained catalogue. SoftArchium does not operate, endorse, control, or monitor those streaming servers. When you play a channel, your device communicates directly with the respective third-party server, subject to that third party's privacy practices.
+### A. Streamloom hosts no content
+Streamloom is a player and an index. Its channel catalogue is compiled from stream addresses that are already publicly listed on the internet, principally the community-maintained iptv-org list, which SoftArchium republishes after regularly checking most of its streams for working links. SoftArchium does not host, upload, store, record, retransmit or alter any video or audio stream. When you play a channel, your device communicates directly with a third-party server that SoftArchium does not operate, control or monitor, subject to that third party's own terms and privacy practices.
 
+### B. No affiliation or endorsement
+Channel names, logos and trademarks belong to their respective owners and are shown only to identify a channel. A channel being listed does not mean its owner is affiliated with, endorses or has licensed Streamloom, and does not mean SoftArchium endorses what that channel broadcasts. SoftArchium does not review or classify any channel's content.
+
+### C. Your responsibility
+You are responsible for making sure that watching a stream is lawful where you are. A stream being publicly reachable on the internet does not, by itself, mean you have the right to watch it in your country.
+
+### D. Provided free and "as is"
+Streamloom is provided free of charge, "as is" and "as available", without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, availability, accuracy or non-infringement. SoftArchium does not guarantee that any channel will be available, working, accurate or suitable for you. To the fullest extent permitted by applicable law, SoftArchium is not liable for any direct, indirect, incidental or consequential loss or damage arising from your use of Streamloom or of any third-party stream, including that stream's content. Nothing in this section excludes or limits any liability that cannot be excluded or limited under the law that applies to you.
+
+### E. Removal requests
+If you own the rights to a channel listed in Streamloom, or believe a listing infringes your rights, email `support@softarchium.com` (see Section 8) with the channel's name and the basis of your request. We review every request and act on valid ones, including by asking the upstream catalogue to remove the channel. Channels on that catalogue's own removal list are excluded automatically at the next catalogue update.
+
+### F. Services SoftArchium operates
 The services SoftArchium does operate are **Supabase** (the catalogue database) and **Upstash** (a cache holding a copy of the same catalogue). Both are data processors holding public catalogue data — no account, no identifier, and no record of what you watch. Like every server your device contacts, they see the address a request comes from; we do not use it or link it to anything.
 
 ---
