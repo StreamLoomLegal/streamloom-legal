@@ -11,6 +11,8 @@ SoftArchium ("we", "us", or "our") builds and maintains **Streamloom**, a live t
 
 This Privacy Policy explains how Streamloom handles user information. Our core architectural principle is **privacy by design**: we collect no personal data, require no accounts, and never track you individually. We do send anonymous, aggregate usage counts — see Section 3C for what these are and why — but nothing about them can be tied back to your device or to you. In most regions, a small baseline of that (that the app was opened, and when a stream fails to play) is always sent, so we can keep the service reliable; a separate Settings toggle controls everything beyond that baseline. In the European Economic Area, the United Kingdom, Switzerland and a small number of nearby countries, that baseline is controlled by the same Settings toggle instead, like everything else; in mainland China, we send no usage statistics of any kind. See Section 3C for exactly which regions and why.
 
+*Looking for Streamloom Lite (Android, Fire TV and web)? Its policy is on a [separate page](lite).*
+
 ---
 
 ## 1. Information We Do Not Collect
