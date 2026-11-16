@@ -45,9 +45,9 @@ Watching television means your device talks to other computers. Each of them see
 * **The channel catalogue**: The channel list, categories and programme guide are fetched over HTTPS from a public host operated for SoftArchium (a Cloudflare R2 bucket). It holds only the channels cleared for Streamloom Lite. The requests carry no account, no identifier and no description of you.
 * **Channel logos**: Station logos are fetched from the public image hosts named in the catalogue.
 * **The streams you watch**: When you play a channel, your device contacts the server that carries that channel's stream. SoftArchium does not operate those servers, and the server sees your IP address and the stream you request, under its own terms and privacy practices.
-* **Fonts (web only)**: The web app loads its typefaces from a font host, which receives the request your browser makes for them.
+* **Fonts (web only)**: The web app loads its typefaces from Google Fonts (fonts.googleapis.com and fonts.gstatic.com), which receive the request your browser makes for them.
 * **The web app's stream relay (web only)**: To play a stream in a browser, the web app sends the address of the stream you play to its own relay, which fetches the stream and passes it on. The relay receives that address and your IP address, and the hosting provider, Cloudflare, may keep ordinary request logs of those requests. We do not use those logs to build a profile of you.
-* **Translation (web only, optional)**: If you turn on English in the web guide, the programme titles on your screen are sent to a translation service. Nothing is sent unless you turn it on.
+* **Translation (optional, off until you turn it on)**: If you turn on English in the guide ("Translate to English" in the Android and Fire TV apps, English in the web guide), the programme titles and text on your screen are sent to a translation service. The Android and Fire TV apps use Google's translation service (translate.googleapis.com). The web app uses MyMemory (api.mymemory.translated.net), or a translation service its operator has configured. Nothing is sent unless you turn it on.
 
 Streamloom Lite sends no crash reports and no usage counts.
 
@@ -56,10 +56,10 @@ Streamloom Lite sends no crash reports and no usage counts.
 ## 4. Third-Party Content, Disclaimer and Liability
 
 ### A. Streamloom Lite hosts no content
-Streamloom Lite is a player and an index. SoftArchium does not host, upload, store, record, retransmit or alter any video or audio stream. When you play a channel, your device communicates directly with a third-party server that SoftArchium does not operate, control or monitor, subject to that third party's own terms and privacy practices. On the web, the app's relay passes the stream on without keeping it.
+Streamloom Lite is a player and an index. SoftArchium does not host, upload, store or record any video or audio stream. When you play a channel, your device communicates directly with a third-party server that SoftArchium does not operate, control or monitor, subject to that third party's own terms and privacy practices. On the web, the app's relay fetches the stream you play and passes it on to your browser without keeping it.
 
 ### B. Only channels cleared to be shown
-Streamloom Lite lists only channels whose owners permit them to be shown in it. A channel appears only after that permission is recorded, and it is removed from the list when the permission ends or the owner asks.
+The catalogue is built to list only channels whose owners permit them to be shown in Streamloom Lite, and a channel is removed when that permission ends or the owner asks.
 
 ### C. No affiliation or endorsement
 Channel names, logos and trademarks belong to their respective owners and are shown only to identify a channel. A channel being listed does not mean its owner is affiliated with or endorses Streamloom Lite, and does not mean SoftArchium endorses what that channel broadcasts.
@@ -87,7 +87,7 @@ SoftArchium keeps no user records, so there is nothing on our side to retain or 
 
 * **Android phone or tablet and Android TV**: Settings, Apps, Streamloom Lite, Storage, Clear storage. Uninstalling the app removes it as well.
 * **Amazon Fire TV**: Settings, Applications, Manage Installed Applications, Streamloom Lite, Clear data. Uninstalling the app removes it as well.
-* **Web**: Clear this site's data in your browser's settings, or use the cache option in the app's Settings.
+* **Web**: Clear this site's data in your browser's settings, which removes your favourites, history and settings along with the stored catalogue. The cache option in the app's Settings clears only the stored catalogue.
 
 ---
 
